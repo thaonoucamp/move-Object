@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<img src="imgs/liverpool.jpg" height="200" width="200"/>
+<body>
+<div id="game">
+</div>
+<script>
+class Liv {
+    constructor(image,top,left,size) {
+        this._image = image;
+        this._top = top;
+        this._left = left;
+        this._size = size;
+    }
+
+    get image() {
+        return this._image;
+    }
+
+    set image(value) {
+        this._image = value;
+    }
+
+    get top() {
+        return this._top;
+    }
+
+    set top(value) {
+        this._top = value;
+    }
+
+    get left() {
+        return this._left;
+    }
+
+    set left(value) {
+        this._left = value;
+    }
+
+    get size() {
+        return this._size;
+    }
+
+    set size(value) {
+        this._size = value;
+    }
+    getLiverpool() {
+        return '<img width = "'+this.size+'"' +
+            'height = "' + this.size+ '"' +
+            'src="' + this.image+ '"'+
+            'style = "top:'+this.top+'px; left:'+this.left+ 'px;position:absolute;/>';
+    }
+    moveRight() {
+        this.left += 100;
+    }
+    moveDown() {
+        this.top += 100;
+    }
+    moveLeft() {
+        this.left -= 100;
+    }
+    moveUp() {
+        this.top -= 100;
+    }
+}
+let liv = new Liv('imgs/liverpool.jpg',10,20,100);
+function start() {
+    if (liv.left > 0 && liv.left < window.innerWidth - liv.size && liv.top < (window.innerHeight -250)) {
+        liv.moveRight();
+    }if (liv.left >= (window.innerWidth - liv.size) && liv.top < (window.innerHeight-250)) {
+        liv.moveDown();
+    }if (liv.top >= (window.innerHeight-250) && liv.left > 0) {
+        liv.moveLeft();
+    }if (liv.left < 0 && liv.top > 0) {
+        liv.moveUp();
+    }if (liv.top < 0) {
+        liv.top = 20;
+        liv.left = 30;
+    }
+    document.getElementById('game').innerHTML = liv.getLiverpool();
+    setTimeout(start,500)
+}
+start();
+</script>
+</body>
+</html>
