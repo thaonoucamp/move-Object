@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<img src="imgs/liverpool.jpg" height="200" width="200"/>
 <body>
 <div id="game">
 </div>
@@ -49,34 +48,46 @@ class Liv {
         this._size = value;
     }
     getLiverpool() {
-        return '<img width = "'+this.size+'"' +
-            'height = "' + this.size+ '"' +
-            'src="' + this.image+ '"'+
-            'style = "top:'+this.top+'px; left:'+this.left+ 'px;position:absolute;/>';
+         // var img = '<img width="'+ this.size + '"' +
+         //     ' height="'+ this.size + '"' +
+         //     ' src="' + this.image +'"' +
+         //     ' style="top: '+this.top+'px; left:'+this.left+'px;position:absolute;" />';
+
+         let img2 = '<img width = "'+this.size+'"' +
+             'height = "' + this.size+ '"' +
+             'src="' + this.image+ '"'+
+             'style = "top:'+this.top+'px; left:'+this.left+ 'px;position:absolute;"/>';
+         // console.log(img);
+         console.log(img2);
+         return img2;
     }
     moveRight() {
-        this.left += 100;
+        this.left += 200;
     }
     moveDown() {
-        this.top += 100;
+        this.top += 200;
     }
     moveLeft() {
-        this.left -= 100;
+        this.left -= 200;
     }
     moveUp() {
-        this.top -= 100;
+        this.top -= 200;
     }
 }
-let liv = new Liv('imgs/liverpool.jpg',10,20,100);
+let liv = new Liv('imgs/liverpool.jpg',20,30,100);
 function start() {
-    if (liv.left > 0 && liv.left < window.innerWidth - liv.size && liv.top < (window.innerHeight -250)) {
+    if (liv.left < window.innerWidth - liv.size) {
         liv.moveRight();
-    }if (liv.left >= (window.innerWidth - liv.size) && liv.top < (window.innerHeight-250)) {
+        console.log(liv.left);
+    }if (liv.left >= (window.innerWidth - liv.size) && liv.top < (window.innerHeight-liv.size)) {
         liv.moveDown();
-    }if (liv.top >= (window.innerHeight-250) && liv.left > 0) {
+        console.log(this.top);
+    }if (liv.top >= (window.innerHeight-liv.size) && liv.left > 0) {
         liv.moveLeft();
-    }if (liv.left < 0 && liv.top > 0) {
+        console.log(this.left);
+    }if (liv.left > 0 && liv.top > 0) {
         liv.moveUp();
+        console.log(this.top);
     }if (liv.top < 0) {
         liv.top = 20;
         liv.left = 30;

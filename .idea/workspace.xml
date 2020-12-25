@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5508c65-5733-4de9-bf84-fa1c185ab3c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Adam-Eva/Eva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Adam-Eva/apple.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../OOP-Circle/circle.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../OOP-Mobile/mobile.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../OOP-Temperture/t.html" afterDir="false" />
@@ -58,8 +60,7 @@
       <change afterPath="$PROJECT_DIR$/../loop-practice-2/puzz-demo.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../loop-practice-2/rectangle.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../loop-practice-2/star.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/liverpool.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/move.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../oop-chu nhat/hinh-chu-nhat.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../practice-function/bai-1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../practice-function/bai-2.html" afterDir="false" />
@@ -130,6 +131,9 @@
       <change beforePath="$PROJECT_DIR$/../function1/sumArr.html" beforeDir="false" afterPath="$PROJECT_DIR$/../function1/sumArr.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile/iphone.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/iphone.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile/mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile/mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move.html" beforeDir="false" afterPath="$PROJECT_DIR$/move.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice2Array/bai-tap-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../practice2Array/bai-tap-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practiceFunction-2/circle.html" beforeDir="false" afterPath="$PROJECT_DIR$/../practiceFunction-2/circle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practiceFunction-2/factorial.html" beforeDir="false" afterPath="$PROJECT_DIR$/../practiceFunction-2/factorial.html" afterDir="false" />
@@ -154,13 +158,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="package.json" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1m5nH21Kc9nmh4F6AWsHMuIdmNT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -172,7 +176,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../liverpool.jpg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -189,7 +193,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608792228512</updated>
-      <workItem from="1608792229610" duration="5494000" />
+      <workItem from="1608792229610" duration="6453000" />
+      <workItem from="1608801337574" duration="5089000" />
     </task>
     <servers />
   </component>
@@ -201,9 +206,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="146" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1608793494585" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608795465599">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608798694433">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608795465599" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608798694433" />
   </component>
 </project>
